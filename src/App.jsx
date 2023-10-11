@@ -1,8 +1,8 @@
 const app = () => {
-  console.log("hello")
+  const date = new Date(); 
   return(
     <div>
-      <p>Hello world..!</p>
+      <p>Hello world..! today's date is {date.toString()}</p>
     </div>
   )
 }
